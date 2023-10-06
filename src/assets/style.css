@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 3rem;
+    background-color: #2d2c2c;
+    color: #959090;
+}
+
+.product {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #373535;
+    color: #e7e4e4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product h2,
+.product p {
+    margin: 0.5rem 0;
+}
+
+.price {
+    font-size: 0.75rem;
+    color: #bab6b6;
+}
+
+.expenses {
+    padding: 1rem;
+    background-color: rgb(31, 31, 31);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .expense-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #ececec;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .expense-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .expense-date__year {
+    font-size: 0.75rem;
+  }
+  
+  .expense-date__day {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .container{
+    max-width: 1176px;
+    margin: 0 auto;
+  }
+
+  .change-title{
+    background-color: rgb(68, 176, 195);
+    border: none;
+    outline: none;
+    margin-bottom: .5rem;
+    border-radius: 4px;
+    padding: .4rem .8rem;
+    font-weight: 600;
+    color: white;
+  }
